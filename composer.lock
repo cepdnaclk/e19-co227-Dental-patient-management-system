@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4657ff829b3bdfcfa2279b7f0865c4d4",
+    "content-hash": "13de687e46e741a1ee2ac75a0d9e3ddb",
     "packages": [
         {
             "name": "arcanedev/log-viewer",
@@ -255,32 +255,35 @@
         },
         {
             "name": "darkghosthunter/laraguard",
-            "version": "v3.0.0",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DarkGhostHunter/Laraguard.git",
-                "reference": "c1073d0a21c9d8510a71d4dda8d03f75986e6864"
+                "reference": "a51c38bfb9bae6ab144a7829d2a1d64f42fe1075"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DarkGhostHunter/Laraguard/zipball/c1073d0a21c9d8510a71d4dda8d03f75986e6864",
-                "reference": "c1073d0a21c9d8510a71d4dda8d03f75986e6864",
+                "url": "https://api.github.com/repos/DarkGhostHunter/Laraguard/zipball/a51c38bfb9bae6ab144a7829d2a1d64f42fe1075",
+                "reference": "a51c38bfb9bae6ab144a7829d2a1d64f42fe1075",
                 "shasum": ""
             },
             "require": {
                 "bacon/bacon-qr-code": "^2.0",
                 "ext-json": "*",
-                "illuminate/auth": "^8.0",
-                "illuminate/http": "^8.20",
-                "illuminate/support": "^8.0",
+                "illuminate/auth": "^8.39",
+                "illuminate/config": "^8.39",
+                "illuminate/database": "^8.39",
+                "illuminate/http": "^8.39",
+                "illuminate/support": "^8.39",
+                "illuminate/validation": "^8.39",
                 "paragonie/constant_time_encoding": "^2.4",
-                "php": "^7.4||^8.0"
+                "php": "^8.0"
             },
             "require-dev": {
+                "doctrine/dbal": "^3.1",
                 "mockery/mockery": "^1.4",
-                "orchestra/canvas": "^6.0",
-                "orchestra/testbench": "^6.0",
-                "phpunit/phpunit": "^9.3"
+                "orchestra/testbench": "6.*",
+                "phpunit/phpunit": "^9.5.9"
             },
             "type": "library",
             "extra": {
@@ -307,18 +310,19 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Two-Factor authentication using TOTP the easy way!",
+            "description": "On-premises 2FA Authentication for all your users out-of-the-box",
             "homepage": "https://github.com/darkghosthunter/laraguard",
             "keywords": [
                 "2fa",
                 "Authentication",
                 "darkghosthunter",
                 "laraguard",
-                "laravel"
+                "laravel",
+                "two-factor"
             ],
             "support": {
                 "issues": "https://github.com/DarkGhostHunter/Laraguard/issues",
-                "source": "https://github.com/DarkGhostHunter/Laraguard/tree/v3.0.0"
+                "source": "https://github.com/DarkGhostHunter/Laraguard/tree/v4.0.3"
             },
             "funding": [
                 {
@@ -331,7 +335,7 @@
                 }
             ],
             "abandoned": "laragear/two-factor",
-            "time": "2021-03-17T23:05:29+00:00"
+            "time": "2022-02-16T18:30:55+00:00"
         },
         {
             "name": "dasprid/enum",
@@ -12248,5 +12252,5 @@
         "php": "^7.4|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
